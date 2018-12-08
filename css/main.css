@@ -1,0 +1,32 @@
+.navbar .navbar-item a{
+    color: #3E463C;
+    font-weight: 600;
+}
+
+.navbar li {
+    background-color: rgb(226, 224, 224);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 1px solid rgb(187, 186, 186);
+    cursor: pointer;
+}
+.active{
+    background-color: #fc4248 !important;
+}
+.active a{
+    color: white !important;
+}
+.navbar li:nth-child(1){
+    /*border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;*/
+}
+.navbar li:nth-child(6){
+    /*border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;*/
+    border-right: none !important;
+}
+.container-item{
+    background-color: rgb(226, 224, 224);
+    text-align: center;
+}
